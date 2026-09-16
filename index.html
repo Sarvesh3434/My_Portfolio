@@ -10,100 +10,144 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="#home">Sarvesh S.</a>
-        </div>
 
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </div>
+<div class="background">
+    <div class="grid"></div>
 
-        <div class="cv-button">
-            <a href="assets\Sarvesh_CV.pdf" class="download-cv">Download CV</a>
-        </div>
-    </nav>
-    <section id="home" class="hero">
+    <span class="stroke stroke-1"></span>
+    <span class="stroke stroke-2"></span>
+    <span class="stroke stroke-3"></span>
+    <span class="stroke stroke-4"></span>
 
-        <div class="hero-content">
-            <p>Hi, I'm</p>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+</div>
 
-            <h1>Sarvesh S.</h1>
+<nav class="navbar">
 
-            <h2>
-                Computer Science Student & Aspiring Full-Stack Developer
-            </h2>
+    <div class="logo">
+        <a href="#" onclick="showSection('home'); return false;">Sarvesh S.</a>
+    </div>
 
-            <p>
-                I build web applications and enjoy turning ideas
-                into real-world projects.
-            </p>
+    <div class="nav-links">
+        <a href="#" onclick="showSection('home'); return false;">Home</a>
+        <a href="#" onclick="showSection('about'); return false;">About</a>
+        <a href="#" onclick="showSection('skills'); return false;">Skills</a>
+        <a href="#" onclick="showSection('projects'); return false;">Projects</a>
+        <a href="#" onclick="showSection('education'); return false;">Education</a>
+        <a href="#" onclick="showSection('contact'); return false;">Contact</a>
+    </div>
 
-            <div class="hero-buttons">
-                <a href="#projects">View My Projects</a>
-                <a href="#contact">Contact Me</a>
-            </div>
+    <div class="cv-button">
+        <a href="assets\Sarvesh_CV.pdf" class="download-cv">
+            Download CV
+        </a>
+    </div>
 
-            <div class="social-links">
-                <a href="https://github.com/Sarvesh3434" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/sarvesh-s-b24a7939b/" target="_blank">LinkedIn</a>
-                <a href="mailto:sarvesh3434@gmail.com">Email</a>
-            </div>
-        </div>
-
-        <div class="hero-image">
-            <img src="images\profile.jpg.jpeg" alt="Sarvesh_pic">
-        </div>
-
-    </section>
+</nav>
 
 
-    <section id="about">
+<section id="home" class="hero page-section active">
 
-        <h2>About Me</h2>
+    <div class="hero-content">
+
+        <p>Hi, I'm</p>
+
+        <h1>Sarvesh S.</h1>
+
+        <h2>
+            Computer Science Student & Aspiring Full-Stack Developer
+        </h2>
 
         <p>
-            I am Sarvesh, a 3rd year student pursuing B.Tech in
-            Computer Science and Engineering at Vellore Institute
-            of Technology, Amaravati.
+            I build web applications and enjoy turning ideas
+            into real-world projects.
         </p>
 
-        <p>
-            I am passionate about web development and enjoy
-            learning new technologies and building projects.
-        </p>
+        <div class="hero-buttons">
 
-    </section>
-    <section id="skills">
+            <a href="#" onclick="showSection('projects'); return false;">
+                View My Projects
+            </a>
 
-        <h2>My Skills</h2>
+            <a href="#" onclick="showSection('contact'); return false;">
+                Contact Me
+            </a>
 
-        <div class="skills-container">
-            <div class="skill-box">
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://github.com/Sarvesh3434" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/sarvesh-s-b24a7939b/" target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="mailto:sarvesh3434@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="images\profile.jpg.jpeg" alt="Sarvesh_pic">
+    </div>
+
+</section>
+
+
+<section id="about" class="page-section">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am Sarvesh, a 3rd year student pursuing B.Tech in
+        Computer Science and Engineering at Vellore Institute
+        of Technology, Amaravati.
+    </p>
+
+    <p>
+        I am passionate about web development and enjoy
+        learning new technologies and building projects.
+    </p>
+
+</section>
+
+
+<section id="skills" class="page-section">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
 
             <h3>Languages</h3>
             <p>HTML</p>
             <p>CSS</p>
 
-            </div>
+        </div>
 
-            <div class="skill-box">
+        <div class="skill-box">
 
             <h3>Tools</h3>
             <p>Git</p>
             <p>GitHub</p>
             <p>VS Code</p>
 
-            </div>
         </div>
 
-    </section>
-   <section id="projects">
+    </div>
+
+</section>
+
+
+<section id="projects" class="page-section">
 
     <h2>My Projects</h2>
 
@@ -112,7 +156,9 @@
         <div class="project-box">
 
             <div class="project-image">
+
                 <img src="images\project1.jpg.png" alt="Bully Mirror">
+
             </div>
 
             <div class="project-details">
@@ -121,7 +167,6 @@
 
                 <p>
                     Bully Mirror is a web platform that helps users identify whether they are directly or indirectly involved in bullying and understand where they stand. It promotes self-awareness while providing resources, support, and a safe space to share experiences and seek help.
-
                 </p>
 
                 <p>
@@ -142,9 +187,12 @@
 
     </div>
 
-    </section>
-    <section id="education">
-        <div class="education-container">
+</section>
+
+
+<section id="education" class="page-section">
+
+    <div class="education-container">
 
         <h2>Education</h2>
 
@@ -160,10 +208,18 @@
                 2024 - 2028
             </p>
 
+            <p>
+                CGPA: 7.2
+            </p>
+
         </div>
-        </div>
-    </section>
-<section id="contact">
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="page-section">
 
     <div class="contact-container">
 
@@ -197,6 +253,25 @@
     </div>
 
 </section>
+
+<script>
+function showSection(sectionId) {
+
+    const sections = document.querySelectorAll(".page-section");
+
+    // Hide every section
+    sections.forEach(section => {
+        section.classList.remove("active");
+    });
+
+    // Show only the selected section
+    const selectedSection = document.getElementById(sectionId);
+
+    if (selectedSection) {
+        selectedSection.classList.add("active");
+    }
+}
+</script>
 
 </body>
 
