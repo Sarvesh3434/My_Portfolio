@@ -144,11 +144,6 @@ body {
     }
 }
 
-
-/* =========================
-   NAVBAR
-========================= */
-
 .navbar {
     position: fixed;
 
@@ -207,16 +202,6 @@ body {
     background-color: #4f46e5;
 }
 
-
-/* =========================
-   SECTION SYSTEM
-========================= */
-
-/*
-   IMPORTANT:
-   Only ONE section exists visually at a time.
-*/
-
 .page-section {
     position: absolute;
 
@@ -235,8 +220,6 @@ body {
     opacity: 0;
 }
 
-/* Active section */
-
 .page-section.active {
     display: block;
 
@@ -254,11 +237,6 @@ body {
     padding: 120px 7% 40px;
 }
 
-
-/* =========================
-   PAGE ANIMATION
-========================= */
-
 @keyframes pageIn {
 
     from {
@@ -272,10 +250,6 @@ body {
     }
 }
 
-
-/* =========================
-   HOME / HERO
-========================= */
 
 .hero-content {
     width: 55%;
@@ -371,11 +345,6 @@ body {
     color: #6366f1;
 }
 
-
-/* =========================
-   ABOUT
-========================= */
-
 #about {
     padding: 120px 7% 40px;
 
@@ -399,11 +368,6 @@ body {
 #about p + p {
     margin-top: 15px;
 }
-
-
-/* =========================
-   SKILLS
-========================= */
 
 #skills {
     padding: 120px 7%;
@@ -448,11 +412,6 @@ body {
 
     font-size: 16px;
 }
-
-
-/* =========================
-   PROJECTS
-========================= */
 
 #projects {
     padding: 120px 7%;
@@ -530,11 +489,6 @@ body {
     margin-right: 20px;
 }
 
-
-/* =========================
-   EDUCATION
-========================= */
-
 #education {
     padding: 120px 7%;
 }
@@ -576,11 +530,6 @@ body {
 
     line-height: 1.6;
 }
-
-
-/* =========================
-   CONTACT
-========================= */
 
 #contact {
     padding: 120px 7%;
@@ -624,10 +573,6 @@ body {
     text-decoration: underline;
 }
 
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 768px) {
 
